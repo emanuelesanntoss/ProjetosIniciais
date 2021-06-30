@@ -1,0 +1,3 @@
+https://encontreumnerd.com.br/blog
+
+//Freecodecamp --> https://www.freecodecamp.org/learn/responsive-web-design/#css-grid
