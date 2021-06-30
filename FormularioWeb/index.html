@@ -1,0 +1,193 @@
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width,user-scalabre=0" />
+
+        <link rel="stylesheet" type="text/css" href="assets/css/template.css" />
+
+<div class="container">
+    <header class="header">
+      <h1 id="title" class="text-center">formulário sobre criptomoedas</h1>
+      <p id="description" class="description text-center">
+        Obrigada por ajudar a melhorar a plataforma
+      </p>
+    </header>
+    <form id="survey-form">
+      <div class="form-group">
+        <label id="name-label" for="name">Nome</label>
+        <input
+          type="text"
+          name="name"
+          id="name"
+          class="form-control"
+          placeholder="Digite seu nome"
+          required
+        />
+      </div>
+      <div class="form-group">
+        <label id="email-label" for="email">E-mail</label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          class="form-control"
+          placeholder="Digite seu email"
+          required
+        />
+      </div>
+      <div class="form-group">
+        <label id="number-label" for="number"
+          >Idade<span class="clue">(optional)</span></label
+        >
+        <input
+          type="number"
+          name="age"
+          id="number"
+          min="10"
+          max="99"
+          class="form-control"
+          placeholder="Digite sua idade"
+        />
+      </div>
+      <div class="form-group">
+        <p>Qual é sua atividade?</p>
+        <select id="dropdown" name="role" class="form-control" required>
+          <option disabled selected value>Selecione uma opção</option>
+          <option value="student">Estudante</option>
+          <option value="job">Desenvolvedor/Deselvolvedora</option>
+          <option value="learner">Tecnologia</option>
+          <option value="preferNo">Investidor/Investidora</option>
+          <option value="other">Outros</option>
+        </select>
+      </div>
+  
+      <div class="form-group">
+        <p>Você recomendaria a compra de criptomoedas a seus amigos?</p>
+        <label>
+          <input
+            name="user-recommend"
+            value="definitely"
+            type="radio"
+            class="input-radio"
+            checked
+          />Definitivamente</label
+        >
+        <label>
+          <input
+            name="user-recommend"
+            value="maybe"
+            type="radio"
+            class="input-radio"
+          />Pode ser</label
+        >
+  
+        <label
+          ><input
+            name="user-recommend"
+            value="not-sure"
+            type="radio"
+            class="input-radio"
+          />Não tenho certeza</label
+        >
+      </div>
+  
+      <div class="form-group">
+        <p>
+          Quais criptomoedas você tem preferência?
+        </p>
+        <select id="most-like" name="mostLike" class="form-control" required>
+          <option disabled selected value>Selecione uma opção</option>
+          <option value="challenges">Bitcoin(BTC)</option>
+          <option value="projects">Ethereum (ETH)</option>
+          <option value="community">Cardano (ADA)</option>
+          <option value="openSource">ChainLink (LINK)</option>
+          <option value="openSource">Chilz (CHZ)</option>
+          <option value="openSource">ChainLink (LNC)</option>
+          <option value="openSource">XRP (XRP)</option>
+          <option value="openSource">Doge (DOGE)</option>
+        </select>
+      </div>
+  
+      <div class="form-group">
+        <p>
+          Quais criptomoedas são suas apostas para o futuro?
+          <span class="clue">(Pode selecionar mais de uma opção)</span>
+        </p>
+  
+        <label
+          ><input
+            name="prefer"
+            value="front-end-projects"
+            type="checkbox"
+            class="input-checkbox"
+          />Bitcoin(BTC)</label
+        >
+        <label>
+          <input
+            name="prefer"
+            value="back-end-projects"
+            type="checkbox"
+            class="input-checkbox"
+          />Ethereum (ETH)</label
+        >
+        <label
+          ><input
+            name="prefer"
+            value="data-visualization"
+            type="checkbox"
+            class="input-checkbox"
+          />Cardano (ADA)</label
+        >
+        <label
+          ><input
+            name="prefer"
+            value="challenges"
+            type="checkbox"
+            class="input-checkbox"
+          />ChainLink (LINK)</label
+        >
+        <label
+          ><input
+            name="prefer"
+            value="open-source-community"
+            type="checkbox"
+            class="input-checkbox"
+          />Chilz</label
+        >
+        <label
+          ><input
+            name="prefer"
+            value="gitter-help-rooms"
+            type="checkbox"
+            class="input-checkbox"
+          />XRP (XRP)</label
+        >
+        <label
+          ><input
+            name="prefer"
+            value="videos"
+            type="checkbox"
+            class="input-checkbox"
+          />Doge (DOGE)</label
+        >
+        </div>
+  
+      <div class="form-group">
+        <p>Algum comentário ou sugestão?</p>
+        <textarea
+          id="comments"
+          class="input-textarea"
+          name="comment"
+          placeholder="Insira seu comentário aqui..."
+        ></textarea>
+      </div>
+  
+      <div class="form-group">
+        <button type="submit" id="submit" class="submit-button">
+          Submit
+        </button>
+      </div>
+    </form>
+  </div>
+  </head>
+</html>  
