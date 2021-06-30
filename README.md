@@ -15,3 +15,17 @@ Para resolver isso, foi utilizado a biblioteca pyautogui, uma biblioteca de auto
 #removendoRepetidos.ipynb
 
 Escreva a função remove_repetidos que recebe como parâmetro uma lista com números inteiros, verifica se tal lista possui elementos repetidos e os remove. A função deve devolver uma lista correspondente à primeira lista, sem elementos repetidos. A lista devolvida deve estar ordenada.
+
+#Automação Web e Busca de Informações com Python de criptomoedas
+
+    Bitcoin
+    Etherium
+    Cardano
+
+Precisamos pegar na internet, de forma automática, a cotação desses 3 itens 
+Para isso, vamos criar uma automação web:
+
+    Usaremos o selenium
+    Importante: baixar o webdriver
+
+
