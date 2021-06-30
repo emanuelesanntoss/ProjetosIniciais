@@ -1,6 +1,7 @@
 # ProjetosIniciais
 
 #Gabarito - Aula 1.ipynb
+
 Automação de Sistemas e Processos com Python
 Atividade:
 
@@ -12,4 +13,5 @@ Local onde o sistema disponibiliza as vendas do dia anterior: https://drive.goog
 Para resolver isso, foi utilizado a biblioteca pyautogui, uma biblioteca de automação de comandos do mouse e do teclado.
 
 #removendoRepetidos.ipynb
+
 Escreva a função remove_repetidos que recebe como parâmetro uma lista com números inteiros, verifica se tal lista possui elementos repetidos e os remove. A função deve devolver uma lista correspondente à primeira lista, sem elementos repetidos. A lista devolvida deve estar ordenada.
