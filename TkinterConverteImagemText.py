@@ -1,14 +1,5 @@
 #############################
-#A lógica da caixa de diálogo de arquivo funcionará para que as imagens formatadas corretamente possam ser carregadas para o software.
-#Após o upload bem-sucedido, o sistema está pronto para conversão e a função do módulo Pytesseract entra em ação.
-#O módulo Pytesseract lê e extrai o texto da imagem e atualiza a área de texto com esse texto convertido.
-#Além disso, a abordagem de manipulação de arquivos em python cria e anexa um arquivo de texto com o texto convertido e o armazenará no banco de dados local do nosso sistema.
-#O arquivo armazenado pode ser acessado no futuro para fins de informação e verificação.
-#############################
-
-
-#############################
-#Necessário instalar o Tesseract OCR no windows
+#Necessário instalar o Tesseract OCR no windows (programa)
 #download: Para instalações no Windows, o executável pode ser baixado no link: https://github.com/UB-Mannheim/tesseract/wiki
 #******************ATENCAO: * É muito importante incluir na instalação o suporte à linguagem “portuguese”*******************
 ############################
@@ -16,6 +7,12 @@
 ###########################
 #Necessário informar o caminho do Tesseract --> C:\Program Files\Tesseract-OCR\tesseract
 #*******pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract
+###########################
+
+#############################
+#cria e anexa um arquivo de texto com o texto convertido e o armazenará no banco de dados local do nosso sistema.
+#O arquivo armazenado pode ser acessado no futuro para fins de informação e verificação.
+#############################
 
 
 
@@ -28,7 +25,7 @@ import pytesseract
 import os.path 
 from tkinter import font
 
-#criar uma interface, usando Tkinter (Label, Button, Frame e assim por diante)  
+#criar uma interface, usando Tkinter
 root = Tk() 
 root.geometry('800x500')         
 root.maxsize(1000, 500) 
