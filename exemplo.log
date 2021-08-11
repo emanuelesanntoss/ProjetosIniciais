@@ -1,0 +1,2 @@
+2021-08-10 13:40:11,016:INFO:LogLogging.py:Santos Emanuele
+2021-08-10 13:40:11,016:ERROR:LogLogging.py:Santos type: <class 'str'> - True type: <class 'bool'>
